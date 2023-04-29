@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 120px;
+  padding: 10px;
+  display: flex;
+  background-color: black;
+}
+
+footer {
+  height: 150px;
+  padding: 10px 120px;
+  background-color: black;
+  color: #e6c97f;
+  font-size: 16px;
+}
+
+.logo-search {
+  width: 30%;
+  display: flex;
+  margin-left: 100px;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.search {
+  margin: auto;
+  border-radius: 15px !important;
+  height: 40px !important;
+  width: 300px !important;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+}
+
+.search input {
+  width: 100% !important;
+  height: 100% !important;
+  margin-right: 3px;
+  border: none !important;
+  border-radius: 15px !important;
+  font-size: 18px !important;
+}
+
+.search input:focus {
+  outline: none !important;
+}
+
+.search i {
+  cursor: pointer !important;
+  font-size: 25px !important;
+  color: #999999;
+}
+
+.content {
+  width: 50%;
+  text-align: center;
+}
+
+.content h1 {
+  font-weight: bold;
+  text-shadow: 0px 10px 10px #999999;
+  color: #e6c97f;
+  font-size: 35px !important;
+}
+
+.content h2 {
+  color: #e6c97f;
+}
+
+.cart {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart span {
+  color: #e6c97f;
+  font-size: 30px !important;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.cart i {
+  color: #e6c97f;
+  font-size: 30px !important;
+  cursor: pointer;
+}
+
+main {
+  margin: 30px 100px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+.product {
+  text-align: center;
+  padding: 20px 5px;
+  font-size: 30px;
+  height: 450px;
+}
+
+.product h4 {
+  margin: 0 auto !important;
+}
+
+.product button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: white;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+img {
+  vertical-align: middle;
+}
+.product-image {
+  height: auto;
+  margin: 10px auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.product-image img {
+  max-width: 100%;
+  transition: all 1s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.product-image:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.product span {
+  font-size: 20px !important;
+  color: red;
+}
+
+.marquee {
+  height: 50px;
+  width: 100%;
+  color: #e6c97f;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 10s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.list-cart {
+  border: solid 5px red;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.list-cart h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.product-cart-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-cart {
+  display: flex;
+  align-items: center;
+}
+
+.productId {
+  width: 5%;
+}
+.productTitle {
+  width: 45%;
+}
+.productImage {
+  width: 5%;
+}
+.productImage img {
+  width: 100%;
+  object-fit: contain;
+}
+.productPrice {
+  width: 15%;
+}
+.productQuantity {
+  width: 5%;
+}
+.productTotal {
+  width: 25%;
+}
+
+.pay {
+  text-align: right;
+}
+
+.check-out {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.check-out:hover {
+  background-color: #ff4500;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.remove-product {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.remove-product:hover {
+  background-color: #ff4500;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}

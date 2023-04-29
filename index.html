@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo-search">
+        <div class="logo">
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Tìm kiếm ..." name="" id="" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="content">
+        <h1>LK Audio</h1>
+        <div class="marquee">
+          <div>
+            <span>Cảm nhận nghệ thuật bằng đôi tai của bạn. </span>
+            <span>Cảm nhận nghệ thuật bằng đôi tai của bạn. </span>
+          </div>
+        </div>
+      </div>
+      <div class="cart">
+        <span>Đăng nhập</span>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="list-product"></div>
+
+      <div class="list-cart">
+        <h1>Giỏ hàng</h1>
+        <div class="product-cart-title">
+          <div class="productId">ID</div>
+          <div class="productImage">Hình ảnh</div>
+          <div class="productTitle">Tên Sản Phẩm</div>
+          <div class="productPrice">Giá</div>
+          <div class="productQuantity">Số lượng</div>
+          <div class="productTotal">Thành tiền</div>
+        </div>
+        <div id="list-cart"></div>
+        <div class="pay">
+          <button class="remove-product" onclick="removeAllProducts()">
+            Xóa hết
+          </button>
+          <button class="check-out" onclick="checkout()">Thanh toán</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h2>SHOP LK AUDIO</h2>
+        <h2>ĐỊA CHỈ : 28 Nguyễn Tri Phương, phường Phú Hội, TP.Huế</h2>
+        <h2>HOTLINE : 0987 777 777 - EMAIL : lkaudio@gmail.com</h2>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
