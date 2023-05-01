@@ -21,14 +21,9 @@ if (obj) {
 } else {
   carts = [];
 }
-let product1 = new Product(1, "Harman Kardon Onyx Studio", "./images/22.jpeg", 6990000);
-let product2 = new Product(2, "JBL Partybox 710", "./images/710.jpg", 19890000);
-let product3 = new Product(
-  3,
-  "Harman Kardon Aura Studio 3",
-  "./images/6490.png",
-  6490000
-);
+let product1 = new Product(1, "Harman Kardon 8", "./images/22.jpeg", 6490000);
+let product2 = new Product(2, "JBL Partybox 710", "./images/710.jpg", 18990000);
+let product3 = new Product(3, "Harman Kardon 6", "./images/6490.png", 6900000);
 let product4 = new Product(
   4,
   "JBL Partybox 110",
@@ -45,19 +40,19 @@ let product6 = new Product(
   6,
   "JBL Boombox 3",
   "./images/JBLmoombox3.jpeg",
-  11490000
+  12990000
 );
 let product7 = new Product(
   7,
-  "KlipschR-51PM",
+  "KlipschR-51PM ",
   "./images/KlipschR-51PM.jpg",
-  11500000
+  12490000
 );
 let product8 = new Product(
   8,
   "Marshall Woburn 3",
   "./images/woburn3.jpg",
-  14200000
+  13390000
 );
 products.push(product1);
 products.push(product2);

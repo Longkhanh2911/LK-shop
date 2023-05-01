@@ -14,7 +14,7 @@ footer {
   height: 150px;
   padding: 10px 120px;
   background-color: black;
-  color: #e6c97f;
+  color: #f1c567;
   font-size: 16px;
 }
 
@@ -68,12 +68,12 @@ footer {
 .content h1 {
   font-weight: bold;
   text-shadow: 0px 10px 10px #999999;
-  color: #e6c97f;
+  color: #f1c567;
   font-size: 35px !important;
 }
 
 .content h2 {
-  color: #e6c97f;
+  color: #f1c567;
 }
 
 .cart {
@@ -84,14 +84,14 @@ footer {
 }
 
 .cart span {
-  color: #e6c97f;
+  color:#f1c567;
   font-size: 30px !important;
   margin-right: 5px;
   cursor: pointer;
 }
 
 .cart i {
-  color: #e6c97f;
+  color: #f1c567;
   font-size: 30px !important;
   cursor: pointer;
 }
@@ -110,7 +110,7 @@ main {
   text-align: center;
   padding: 20px 5px;
   font-size: 30px;
-  height: 450px;
+  height: 500px;
 }
 
 .product h4 {
@@ -131,7 +131,7 @@ main {
 }
 
 .product button:hover {
-  background-color: white;
+  background-color: #ff4500;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -165,7 +165,7 @@ img {
 .marquee {
   height: 50px;
   width: 100%;
-  color: #e6c97f;
+  color: #f1c567;
   font-size: 25px;
   overflow: hidden;
   position: relative;
