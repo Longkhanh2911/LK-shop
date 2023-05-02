@@ -140,7 +140,7 @@ img {
   vertical-align: middle;
 }
 .product-image {
-  height: auto;
+  height: 300px;
   margin: 10px auto;
   overflow: hidden;
   position: relative;
