@@ -196,7 +196,7 @@ img {
   }
 }
 .list-cart {
-  border: solid 5px red;
+  border: solid 2px #DCDCDC;
   margin-top: 30px;
   text-align: center;
 }
